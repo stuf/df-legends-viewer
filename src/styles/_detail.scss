@@ -1,0 +1,31 @@
+.detail-view {
+  width: 100%;
+
+  dl {
+    width: 100%;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 9fr;
+
+    dt {
+      font-weight: bold;
+    }
+
+    dd {
+    }
+
+    dt,
+    dd {
+      width: 100%;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    pre {
+      font-size: 0.825rem;
+    }
+  }
+}
